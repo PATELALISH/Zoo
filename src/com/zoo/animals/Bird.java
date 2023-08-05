@@ -2,17 +2,17 @@ package com.zoo.animals;
 
 public class Bird extends Animal implements Flyable {
 
-    public Bird(String name, int age, String species) {
-        super("Bird", age, species);
+    public Bird(String name, int age) {
+        super(name, age, "Bird");
     }
 
     @Override
     public void fly() {
-        System.out.println("Birds can fly");
+        System.out.println(getName() + " is flying");
     }
 
     @Override
     public void makeSound() {
-
+        System.out.println(getName() + " makes sound");
     }
 }

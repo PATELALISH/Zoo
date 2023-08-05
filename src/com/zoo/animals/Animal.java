@@ -11,6 +11,13 @@ public abstract class Animal {
         this.species = species;
     }
 
+    //getter
+
+
+    public String getName() {
+        return name;
+    }
+
     //abstract method
     public abstract void makeSound();
 }
