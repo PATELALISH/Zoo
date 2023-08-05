@@ -16,5 +16,7 @@ public class Main {
         zoo.addAnimal(lion);
 
         zoo.performFly(sparrow);
+        zoo.performFly(goldfish);
+        zoo.makeAnimalsMakeSound();
     }
 }

@@ -12,8 +12,6 @@ public abstract class Animal {
     }
 
     //getter
-
-
     public String getName() {
         return name;
     }
