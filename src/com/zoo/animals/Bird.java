@@ -3,7 +3,7 @@ package com.zoo.animals;
 public class Bird extends Animal implements Flyable {
 
     public Bird(String name, int age) {
-        super(name, age, "Bird");
+        super(name, age, AnimalSpecies.Bird);
     }
 
     @Override

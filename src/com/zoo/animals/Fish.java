@@ -3,7 +3,7 @@ package com.zoo.animals;
 public class Fish extends Animal implements Swimmable {
 
     public Fish(String name, int age) {
-        super(name, age, "Fish");
+        super(name, age, AnimalSpecies.FISH);
     }
 
     @Override
